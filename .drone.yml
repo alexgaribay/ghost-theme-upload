@@ -1,0 +1,18 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: publish
+  image: plugins/docker
+  settings:
+    auto_tag: true
+    repo: alexgaribay/ghost-theme-upload
+    username:
+      from_secret: registry_username
+    password:
+      from_secret: registry_password
+
+trigger:
+  event:
+  - tag

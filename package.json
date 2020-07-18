@@ -1,0 +1,14 @@
+{
+  "name": "ghost-theme-upload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build"
+  },
+  "author": "Alex Garibay",
+  "license": "MIT",
+  "devDependencies": {
+    "@zeit/ncc": "0.22.3",
+    "@tryghost/admin-api": "1.2.0"
+  }
+}
