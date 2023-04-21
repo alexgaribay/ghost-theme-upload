@@ -9,6 +9,6 @@
   "license": "MIT",
   "devDependencies": {
     "@zeit/ncc": "0.22.3",
-    "@tryghost/admin-api": "1.2.0"
+    "@tryghost/admin-api": "1.13.5"
   }
 }
